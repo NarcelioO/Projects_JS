@@ -14,9 +14,9 @@
         price:Number
     })
 
-    const emit = defineEmits(["Added"])
+    const emit = defineEmits(["added"])
 
     function AddProduct(){
-        emit("Added", props.price)
+        emit("added", props.price)
     }
 </script>

@@ -12,5 +12,5 @@
 <script setup>
 import {ref} from 'vue'
 
-const valor = ref("vue é muito legal")
+const valor = ref("")
 </script>
